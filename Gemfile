@@ -1,4 +1,4 @@
-source 'https://rubygems.org'
+source 'http://rubygems.org'
 
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
@@ -56,3 +56,5 @@ gem 'devise'
 gem 'paperclip'
 
 gem 'spring'
+
+gem 'masonry-rails'
