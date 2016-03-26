@@ -1,12 +1,17 @@
 class PinsController < ApplicationController
 
-	before_action :get_pin, only:[:show,:edit,:update,:destroy]
+	before_action :get_pin, only:[:show,:edit,:update,:destroy,:upvote]
 
 	def index
 		@pins = Pin.all.order("created_at DESC")
 	end
 
 	def show
+	end
+
+	def upvote
+		@pin.upvote_by current_user
+		redirect_to :back
 	end
 
 	def new

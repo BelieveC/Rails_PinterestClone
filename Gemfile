@@ -58,3 +58,5 @@ gem 'paperclip'
 gem 'spring'
 
 gem 'masonry-rails'
+
+gem 'acts_as_votable'
