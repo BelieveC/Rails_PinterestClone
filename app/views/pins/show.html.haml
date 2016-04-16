@@ -23,4 +23,4 @@
 							-if user_signed_in?		
 								=link_to "Edit",edit_pin_path(@pin),class:"btn btn-default"
 								=link_to "Delete", @pin, method: :delete, data:{confirm: "Are you sure?"},class:"btn btn-default"
-							
+						=render 'comment'
