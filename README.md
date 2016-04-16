@@ -1,4 +1,4 @@
-[My Pinterest](https://github.com/BelieveC/Rails_PinterestClone)
+[My Pinterest](https://cwaypinterest.herokuapp.com/)
 ====================================
 
 Features of Pinterest Clone
