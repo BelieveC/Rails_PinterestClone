@@ -56,7 +56,7 @@ gem 'bootstrap-sass'
 
 gem 'simple_form'
 
-gem 'devise'
+gem 'devise', '~> 3.5.6'
 
 gem 'paperclip'
 
